@@ -1,3 +1,14 @@
+% **********************************************************************
+% tenorMusic.ly :
+%  Copyright (C) 2010 YAMAMOTO Kenji
+%  This work is licensed under 
+%  the Creative Commons Attribution-Share Alike 2.1 Japan License. 
+%  To view a copy of this license, 
+%  visit http://creativecommons.org/licenses/by-sa/2.1/jp/
+%  or send a letter to Creative Commons, 171 Second Street,
+%  Suite 300, San Francisco, California, 94105, USA.
+% **********************************************************************
+
 tenorMusic =
 {
   \set Staff.instrumentName = "Tenor"
@@ -7,7 +18,7 @@ tenorMusic =
   \key c \major
 
   % --------------------------------------------------
-  % 初期設定
+  % Initial Setting
   % --------------------------------------------------
 %  \set Staff.midiInstrument = "acoustic grand"
   \set Staff.midiInstrument = "violin"
@@ -21,7 +32,6 @@ tenorMusic =
   % --------------------------------------------------
   \relative c'
   {
-%    e4 d8 [ c ] d2 | e8 [ c ] a8 [ c ] g2~ | g4~ g8~ [ r ] r2 | r8 [ d' ] c2 r4  |
     e4 d8 [ c ] d2 | e8 [ c ] a8 [ c ] g2~ | g4~ g8~ [ r ] r2 | r8 [ e' ] c2 r4  |
   }
 
@@ -62,8 +72,6 @@ tenorMusic =
   % --------------------------------------------------
   \relative c'
   {
-%    e4~ e4 e4 e4 | e4 d4 d4 d4 | d4 c4 c4 a4 | g2. r4 |
-%    e4~ e4 e4 e4 | e4 e4 e4 e4 | d4 c4 c4 a4 | g2. r4 |
     e4~ e4 e4 e4 | e4 e4 e4 e4 | d4 c4 c4 b4 | g2. r4 |
   }
 
