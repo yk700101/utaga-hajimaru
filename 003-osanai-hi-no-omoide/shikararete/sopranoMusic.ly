@@ -1,3 +1,14 @@
+% **********************************************************************
+% sopranoMusic.ly :
+%  Copyright (C) 2010 YAMAMOTO Kenji
+%  This work is licensed under 
+%  the Creative Commons Attribution-Share Alike 2.1 Japan License. 
+%  To view a copy of this license, 
+%  visit http://creativecommons.org/licenses/by-sa/2.1/jp/
+%  or send a letter to Creative Commons, 171 Second Street,
+%  Suite 300, San Francisco, California, 94105, USA.
+% **********************************************************************
+
 sopranoMusic =
 {
   \set Staff.instrumentName = "Soprano"
@@ -7,7 +18,7 @@ sopranoMusic =
   \key c \major
 
   % --------------------------------------------------
-  % 初期設定
+  % Initial Setting
   % --------------------------------------------------
 %  \set Staff.midiInstrument = "acoustic grand"
   \set Staff.midiInstrument = "violin"
@@ -48,7 +59,7 @@ sopranoMusic =
     r4 a16 [ r8. ] r4 a16 [ r8. ] | r4 c16 [ r8. ] r4 g16 [ r8. ] | r4 a16 [ r8. ] r2 | r4 r4 \times2/3{ a8 c d~ } \times2/3{ d8~ d r } |
   }
 
-\break
+  \break
 
   % --------------------------------------------------
   % 1-5
@@ -66,7 +77,7 @@ sopranoMusic =
     R1 | r2 r4 r8 [ g ] | a2 g4 \times2/3 { c8 d e } | d2. r4 |
   }
 
-\break
+  \break
 
   % --------------------------------------------------
   % 2-2
@@ -92,7 +103,7 @@ sopranoMusic =
     R1 | R1 | r2 r4 a8 [ c ] | d2. r4 |
   }
 
-\break
+  \break
 
   % --------------------------------------------------
   % 2-5
