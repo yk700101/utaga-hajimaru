@@ -72,7 +72,6 @@ wholeLyrics =
     { 
       いつまでも　どこまでも
     }
-
   }
 
   \hspace #4.0
@@ -140,8 +139,6 @@ wholeLyrics =
     { 
       forever and everywhere.
     }
-
   }
-
 }
 

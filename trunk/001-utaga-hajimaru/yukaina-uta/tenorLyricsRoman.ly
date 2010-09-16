@@ -42,11 +42,8 @@ tenorLyricsRoman = \lyricmode
   % --------------------------------------------------
   % Ending
   % --------------------------------------------------
-  Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 |
-  
-  Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 ton16 -- \skip16 shan16 -- \skip16 ton16 \skip8. |
-
-  \skip16 Hum16 __ \skip8 \skip4 \skip4 \skip4 \skip4 |
-
+  "　"4 \skip1*3/4 |
+  \skip1*4/4 |
+  \skip1*5/4 |
 }
 

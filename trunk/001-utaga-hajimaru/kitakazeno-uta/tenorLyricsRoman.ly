@@ -14,15 +14,15 @@ tenorLyricsRoman = \lyricmode
   % --------------------------------------------------
   % 1
   % --------------------------------------------------
-  Huh4 __ \skip4 \skip4 \skip4 |
+  \skip1*4/4 |
 
-  \skip4 \skip4 \skip4 \skip4 Huh4 __ \skip4 \skip4 |
+  \skip1*7/4 |
 
-  \skip4 \skip4 \skip4 \skip4 \skip8 Huh8 __ \skip4 \skip4 \skip4 |
+  \skip1*8/4 |
 
-  Mo4 -- o4 __ \skip4 Mo4 -- o4 __ \skip4 \skip4 \skip4 |
+  Mo4 -- o4 __ \skip4 Mo4 -- o2. \skip4 |
 
-  \skip4 \skip4 U4 -- \skip8 ta8 -- wa?4 __ \skip4 \skip4 \skip4 |
+  \skip4 \skip4 U4 -- \skip8 ta8 -- wa?2 __ \skip4 \skip4 |
 
 }
 

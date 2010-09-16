@@ -27,7 +27,7 @@ wholeLyrics =
 
     \line
     { 
-      あかい　りぼん　つけた
+      あかい　リボン　つけた
     }
 
     \line
@@ -67,7 +67,6 @@ wholeLyrics =
     { 
       そらへ　とびだす
     }
-
   }
 
   \hspace #4.0
@@ -130,8 +129,6 @@ wholeLyrics =
     { 
       jump to the sky.
     }
-
   }
-
 }
 

@@ -11,37 +11,23 @@
 
 altoMusic = 
 {
-  \set Staff.instrumentName = "Alto"
-
-  \clef treble
-
-  \key c \major
-
-  % --------------------------------------------------
-  % Initial Setting
-  % --------------------------------------------------
-%  \set Staff.midiInstrument = "acoustic grand"
-%  \set Staff.midiInstrument = "flute"
-  \set Staff.midiInstrument = "violin"
-
-  \override Staff.TimeSignature #'style = #'()
-
   % --------------------------------------------------
   % 1
   % --------------------------------------------------
   \relative c''
   {
-    \time 4/4
-    R1 |
+    \time 2/4
+    R1*2/4 |
 
+    \time 4/4
     \times2/3{ g8 a a } \times2/3{ a8 g e } d4 c4 |
 
-    e4~ e4~ e4~ \times2/3{ e8~ e8 r8 } |
+    e2.~ \times2/3{ e8~ e8 r8 } |
 
     \times2/3{ e8 g g } \times2/3{ g8 a a } a4 c4 |
 
     \time 8/4
-    g4~ g4~ g4~ g4~ g4~ g4~ g8 [ r ] r4 |
+    g1~ g2~ g8 [ r ] r4 |
   }
 
   % --------------------------------------------------
@@ -61,11 +47,10 @@ altoMusic =
   % --------------------------------------------------
   \relative c''
   {
-    \time 4/4
-    \times2/3{ g8 r8 r8 } c4 g4~ g4~ |
+    \times2/3{ g8 r8 r8 } c4 g2~ |
 
     \time 6/4
-    g4~ g4~ g4~ g4~ g4 r4 |
+    g2.~ g2 r4 |
   }
   
   % --------------------------------------------------
@@ -74,9 +59,7 @@ altoMusic =
   \relative c''
   {
     \time 8/4
-    \times2/3{ g8 a e } c4 e4 g4 g4~ g4~ g4 r4 |
+    \times2/3{ g8 a e } c4 e4 g4 g2. r4 |
   }
-
-  \bar "|."
 }
 

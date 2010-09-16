@@ -20,7 +20,22 @@ commonScoreSetting =
   \override Score.BarNumber   #'break-visibility = #end-of-line-invisible
 
   \override Score.SpacingSpanner #'base-shortest-duration = #(ly:make-moment 1 32)
+}
 
-  \tempo 4=42
+commonStaffSetting =
+{
+  \key c \major
+
+  \set Staff.midiInstrument = "violin"
+
+  \override Staff.TimeSignature #'style = #'()
+}
+
+commonLyricsSettingJ =
+{
+}
+
+commonLyricsSettingR =
+{
 }
 

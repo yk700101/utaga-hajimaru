@@ -11,20 +11,6 @@
 
 tenorMusic =
 {
-  \set Staff.instrumentName = "Tenor"
-
-  \clef "treble_8" 
-
-  \key g \major
-
-  % --------------------------------------------------
-  % Initial Setting
-  % --------------------------------------------------
-%  \set Staff.midiInstrument = "acoustic grand"
-%  \set Staff.midiInstrument = "flute"
-  \set Staff.midiInstrument = "violin"
-
-  \override Staff.TimeSignature #'style = #'()
   \time 4/4
 
   % --------------------------------------------------
@@ -32,9 +18,10 @@ tenorMusic =
   % --------------------------------------------------
   \relative c'
   {
-    b16 [ b b b ] b16 [ b r16 b~ ] b4 r16 [ g g b ] | a16 [ a b a~ ] a4~ a4~ a8 [ r8 ] |
-
-    g16 [ g g e ] e16 [ e b' b ] a4~ a8 [ r8 ] | g8 [ g ] g16 [ g b a~ ] a4~ a8 [ r8 ]
+    b16 [ b b b ] b16 [ b r16 b~ ] b4 r16 [ g g b ] |
+    a16 [ a b a~ ] a2~ a8 [ r8 ] |
+    g16 [ g g e ] e16 [ e b' b ] a4~ a8 [ r8 ] |
+    g8 [ g ] g16 [ g b a~ ] a4~ a8 [ r8 ] |
   }
 
   % --------------------------------------------------
@@ -48,7 +35,7 @@ tenorMusic =
   }
 
   % --------------------------------------------------
-  % 3
+  % 2
   % --------------------------------------------------
   \relative c'
   {
@@ -58,15 +45,13 @@ tenorMusic =
   }
 
   % --------------------------------------------------
-  % 4
+  % 3
   % --------------------------------------------------
   \relative c'
   {
-    \times2/3{ b8 d b } \times2/3{ e8 b b } \times2/3{ b8 g g } \times2/3{ g8 g8~ g8~ } | \time 3/4  \times2/3{ g8 a b~ } b4~ b8 [ r8 ] | 
+    \times2/3{ b8 d b } \times2/3{ e8 b b } \times2/3{ b8 g g } \times2/3{ g8 g8~ g8~ } | \time 3/4 \times2/3{ g8 a b~ } b4~ b8 [ r8 ] | 
 
-    \time 4/4 \times2/3{ a8 g a } b8 [ g ] \times2/3{ e8 d e } g8 [ g8~ ] | g4~ g4 r2
+    \time 4/4 \times2/3{ a8 g a } b8 [ g ] \times2/3{ e8 d e } g8 [ g8~ ] | g2 r2
   }
-
-  \bar "|."
 }
 

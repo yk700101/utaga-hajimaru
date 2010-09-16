@@ -14,25 +14,27 @@ tenorLyricsRoman = \lyricmode
   % --------------------------------------------------
   % 1-1
   % --------------------------------------------------
-  Ko16 -- no ka -- ze -- ni sot -- \skip16 to __ \skip4 \skip16 u16 -- ta -- o no -- se -- yo -- o. __ \skip4 \skip4 \skip4
-  Ko16 -- ko -- lo -- ka -- la a -- fu -- le -- lu2 __ hon8 -- to -- no16 u -- ta -- o. __ \skip2
+  Ko16 -- no16 ka16 -- ze16 -- ni16 sot16 -- \skip16 to16 __ \skip4 \skip16 u16 -- ta16 -- o16 |
+  no16 -- se16 -- yo16 -- o.16 __ \skip2 \skip8 \skip8 |
+  Ko16 -- ko16 -- lo16 -- ka16 -- la16 a16 -- fu16 -- le16 -- lu4 __ \skip8 \skip8 |
+  honn8 -- to8 -- no16 u16 -- ta16 -- o.16 __ \skip4 \skip8 \skip8 |
   
   % --------------------------------------------------
   % 1-2
   % --------------------------------------------------
   U16 -- ta -- wa da -- le -- ka -- no ko -- ko -- lo -- ni to -- do -- ki, \skip8
-  su8*2/3 -- ngu -- ni ip16 -- \skip16 pai8 -- \skip16 ni16 nat -- \skip16 te16 \skip16 ma16 -- ta | a16 -- fu -- le -- da -- su.4 __ \skip8 \skip8
+  su8*2/3 -- ngu -- ni ip16 -- \skip16 pai8 -- \skip16 ni16 nat -- \skip16 te16 \skip16 \skip8 | \skip2.
   
+  % --------------------------------------------------
+  % 2
+  % --------------------------------------------------
+  \skip4 | \skip1*4/4 | \skip1*4/4 |
+  \skip1*4/4 | \skip1*4/4 |
+
   % --------------------------------------------------
   % 3
   % --------------------------------------------------
-  Ah,4 __ | So8 -- yat16 -- \skip16 te16 u -- ta -- wa __ \skip2 | a16 -- fu -- le -- te __ \skip8 yu16 -- ku. __ \skip2 |
-  Ha8 -- te -- shi -- na16 -- ku __ \skip2 | hi16 -- lo -- ngat -- \skip16 te8 yu16 -- ku. __ \skip2 |
-
-  % --------------------------------------------------
-  % 4
-  % --------------------------------------------------
-  U8*2/3 -- ta -- nga se -- ka -- i -- o mi -- ta -- shi -- te4*2/3 __ | \skip8*2/3 yu8*2/3 -- ku. __ \skip2 |
-  I8*2/3 -- tsu -- ma -- de8 -- mo, do8*2/3 -- ko -- ma -- de8 -- mo. __ | \skip1
-
+  \skip1*4/4 | \skip1*3/4 |
+  \skip1*4/4 | \skip1*4/4
 }
+

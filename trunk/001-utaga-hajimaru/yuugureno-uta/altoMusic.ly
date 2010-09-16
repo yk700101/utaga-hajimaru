@@ -11,20 +11,6 @@
 
 altoMusic =
 {
-  \set Staff.instrumentName = "Alto"
-
-  \clef treble
-
-  \key c \major
-
-  % --------------------------------------------------
-  % Initial Setting
-  % --------------------------------------------------
-%  \set Staff.midiInstrument = "acoustic grand"
-  \set Staff.midiInstrument = "violin"
-
-  \override Staff.TimeSignature #'style = #'()
-
   % --------------------------------------------------
   % 1
   % --------------------------------------------------
@@ -68,7 +54,5 @@ altoMusic =
 
     \times2/3{ bes8 g bes } \times2/3{ c8 d c } \times2/3{ d8 f d } bes4 |
   }
-
-  \bar "|."
 }
 

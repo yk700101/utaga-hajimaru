@@ -14,7 +14,7 @@ altoLyricsRoman = \lyricmode
   % --------------------------------------------------
   % Beginning-A
   % --------------------------------------------------
-  U8 -- ta8 -- nga4 __ \skip4 \skip4 |
+  U8 -- ta8 -- nga2. |
 
   U8 -- ta8 -- nga4 __ \skip4 \skip4 |
 
@@ -23,7 +23,7 @@ altoLyricsRoman = \lyricmode
   % --------------------------------------------------
   U8 -- ta8 __ \skip4 U8 -- ta8 __ \skip4 | U8 -- ta8 -- \skip4 nga4 \skip4 |
   
-  U8*2/3 -- ta -- nga ha -- ji -- ma -- lu.4 __ \skip4 \skip4 |
+  U8*2/3 -- ta -- nga ha -- ji -- ma -- lu.2 __ \skip4 |
 
   % --------------------------------------------------
   % 1
@@ -34,14 +34,13 @@ altoLyricsRoman = \lyricmode
 
   To8*2/3 -- ki -- ni ya16 -- sa -- shi -- ku, __ \skip4 \skip4 |
 
-  wa16 -- ta -- shi -- o tsu8*2/3 -- tsu -- mi, __ \skip4 \skip4 \skip4 \skip4 |
+  wa16 -- ta -- shi -- o tsu8*2/3 -- tsu -- mi, __ \skip2. \skip4 |
 
   % --------------------------------------------------
   % Ending
   % --------------------------------------------------
   Ah4 __ \skip4 \skip4 \skip4 |
 
-  U8*2/3 -- ta -- nga ha -- ji -- ma -- lu.4 __ \skip4 \skip4 \skip4 |
-
+  U8*2/3 -- ta -- nga ha -- ji -- ma -- lu.2 __ \skip4 \skip4 |
 }
 

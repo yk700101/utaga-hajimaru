@@ -113,7 +113,6 @@ wholeLyrics =
     { 
       パン　パン　パン　パン　パン　パン　パン！
     }
-
   }
 
   \hspace #4.0
@@ -222,8 +221,6 @@ wholeLyrics =
     { 
       Pam Pam Pam Pam Pam Pam Pam!
     }
-
   }
-
 }
 

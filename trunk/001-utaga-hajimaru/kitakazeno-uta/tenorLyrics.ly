@@ -18,11 +18,11 @@ tenorLyrics = \lyricmode
 
   \skip4 \skip4 \skip4 \skip4 Huh4 __ \skip4 \skip4 |
 
-  \skip4 \skip4 \skip4 \skip4 \skip8 Huh8 __ \skip4 \skip4 \skip4 |
+  \skip4 \skip4 \skip4 \skip4 \skip8 Huh8 __ \skip2 \skip4 |
 
-  も4 う4 __ \skip4 も4 う4 __ \skip4 \skip4 \skip4 |
+  も4 う4 __ \skip4 も4 う2. \skip4 |
 
-  \skip4 \skip4 う4 __ \skip8 た8 は？4 __ \skip4 \skip4 \skip4 |
+  \skip4 \skip4 う4 __ \skip8 た8 は？2 __ \skip4 \skip4 |
 
 }
 

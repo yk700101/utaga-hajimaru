@@ -51,7 +51,6 @@ altoLyricsRoman = \lyricmode
 
   Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 ton16 -- \skip16 shan16 -- \skip16 ton16 \skip8. |
 
-  \skip16 Hum16 __ \skip8 \skip4 \skip4 \skip4 \skip4 |
-
+  \skip1*5/4 |
 }
 
