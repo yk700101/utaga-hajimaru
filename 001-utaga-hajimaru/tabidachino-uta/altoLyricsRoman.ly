@@ -32,22 +32,21 @@ altoLyricsRoman = \lyricmode
   % --------------------------------------------------
   % 2
   % --------------------------------------------------
-  \skip8 Hah16 __ \skip16 \skip4 \skip8 Hah16*2/3 __ \skip16*2/3 \skip16*2/3 \skip4  |
+  \skip8 "　"16 \skip16 \skip4 \skip4 \skip4 |
 
-  \skip8 Hah16*2/3 __ \skip16*2/3 \skip16*2/3 \skip4 \skip8 Hah32 __ \skip32 \skip32 \skip32 \skip4 |
+  \skip1*4/4 |
 
-  \skip8 Hah16 __ \skip16 \skip2. |
+  \skip1*4/4 |
 
-  Hah4 __ \skip4 \skip4 \skip8 \skip16 A16 -- |
+  \skip4 \skip4 \skip4 \skip8 \skip16 A16 -- |
 
   na8 -- ta8 -- ni4 __ \skip8 \skip8 |
 
   % --------------------------------------------------
   % Ending
   % --------------------------------------------------
-  Pam4 Pam4 Pam8 Pam!8 __ \skip8 \skip16 \skip16 | 
+  Pamm4 Pamm4 Pamm8 Pamm!8 __ \skip8 \skip16 \skip16 | 
 
-  \skip16 Hum8. __ \skip2 \skip4 |
-
+  \skip16 "　"8. \skip2 \skip4 |
 }
 

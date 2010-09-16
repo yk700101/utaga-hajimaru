@@ -1,8 +1,21 @@
+% **********************************************************************
+% yuugureno-uta.ly :
+%  Copyright (C) 2010 YAMAMOTO Kenji
+%  This work is licensed under 
+%  the Creative Commons Attribution-Share Alike 2.1 Japan License. 
+%  To view a copy of this license, 
+%  visit http://creativecommons.org/licenses/by-sa/2.1/jp/
+%  or send a letter to Creative Commons, 171 Second Street,
+%  Suite 300, San Francisco, California, 94105, USA.
+% **********************************************************************
+
 \version "2.12.3"
 
 \include "common.ly"
 
 \include "altoMusic.ly"
+
+\include "altoMarks.ly"
 
 \include "altoLyrics.ly"
 
@@ -10,17 +23,23 @@
 
 \include "tenorMusic.ly"
 
+\include "tenorMarks.ly"
+
 \include "tenorLyrics.ly"
 
 \include "tenorLyricsRoman.ly"
 
 \include "wholeLyrics.ly"
 
+\include "allMarks.ly"
+
+\include "allTempos.ly"
+
+\include "allBreaks.ly"
+
 
 \paper
 {
-  print-page-number = false
-  bottom-margin = 1\cm
 }
 
 \header 
@@ -42,7 +61,6 @@
         {
           (Yuugure no Uta)
         }
-
       }
     }
 
@@ -56,7 +74,6 @@
         {
           About 1:00
         }
-
       }
     }
 
@@ -72,6 +89,9 @@
         {
           Words and Music by YAMAMOTO Kenji (1970/1/1- )
         }
+
+        %insert blank line
+        \hspace #0.1
       }
     }
 
@@ -82,7 +102,7 @@
       {
         \line
         {
-          Ver1.13 (2009/01/07-2010/03/29) / Edition may be freely distributed, duplicated, performed, or recorded.
+          Ver1.14 (2009/01/07-2010/09/08) / Edition may be freely distributed, duplicated, performed, or recorded.
         }
 
         \line
@@ -91,65 +111,77 @@
         }
       }
     }
-
 }
 
 \score
 {
   \new ChoirStaff
-  <<
-
+  {
     \commonScoreSetting
 
-    \new Staff
     <<
-
-      \new Voice = "alto" 
+      \new Staff
       {
-        \altoMusic
+        <<
+          \new Voice = "alto" 
+          {
+            \commonStaffSetting
+
+            <<
+              \altoMusic
+              \altoMarks
+              \allMarks
+              \allTempos
+              \allBreaks
+            >>
+          }
+
+          \new Lyrics
+          {
+            \set associatedVoice = #"alto"
+            \commonLyricsSettingJ
+            \altoLyrics
+          }
+
+          \new Lyrics
+          {
+            \set associatedVoice = #"alto"
+            \commonLyricsSettingR
+            \altoLyricsRoman
+          }
+        >>
       }
 
-      \new Lyrics
+      \new Staff
       {
-        \set associatedVoice = #"alto"
+        <<
+          \new Voice = "tenor" 
+          {
+            \commonStaffSetting
 
-        \altoLyrics
+            <<
+              \tenorMusic
+              \tenorMarks
+            >>
+          }
+
+          \new Lyrics
+          {
+            \set associatedVoice = #"tenor"
+            \commonLyricsSettingJ
+            \tenorLyrics
+          }
+
+          \new Lyrics
+          {
+            \set associatedVoice = #"tenor"
+            \commonLyricsSettingR
+            \tenorLyricsRoman
+          }
+        >>
       }
-
-      \new Lyrics
-      {
-        \set associatedVoice = #"alto"
-
-        \altoLyricsRoman
-      }
-
     >>
-
-    \new Staff
-    <<
-
-      \new Voice = "tenor" 
-      {
-        \tenorMusic
-      }
-
-      \new Lyrics
-      {
-        \set associatedVoice = #"tenor"
-
-        \tenorLyrics
-      }
-
-      \new Lyrics
-      {
-        \set associatedVoice = #"tenor"
-
-        \tenorLyricsRoman
-      }
-
-    >>
-
-  >>
+  }
 
   \layout
   {
@@ -171,7 +203,6 @@
   \midi
   {
   }
-
 }
 
 \wholeLyrics

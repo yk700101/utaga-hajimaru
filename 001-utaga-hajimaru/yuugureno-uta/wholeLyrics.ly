@@ -90,7 +90,6 @@ wholeLyrics =
     {
       きょうは　ともに　ねむろう
     }
-
   }
 
   \hspace #4.0
@@ -176,8 +175,6 @@ wholeLyrics =
     {
       let's sleep together today.
     }
-
   }
-
 }
 

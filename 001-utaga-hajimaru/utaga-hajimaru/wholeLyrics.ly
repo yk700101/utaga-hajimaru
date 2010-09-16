@@ -86,7 +86,6 @@ wholeLyrics =
     { 
       あぁ　うたが　はじまる
     }
-
   }
 
   \hspace #4.0
@@ -168,8 +167,6 @@ wholeLyrics =
     { 
       Ah, a song begins.
     }
-
   }
-
 }
 

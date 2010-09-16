@@ -11,20 +11,6 @@
 
 tenorMusic =
 {
-  \set Staff.instrumentName = "Tenor"
-
-  \clef "treble_8" 
-
-  \key c \major
-
-  % --------------------------------------------------
-  % Initial Setting
-  % --------------------------------------------------
-%  \set Staff.midiInstrument = "acoustic grand"
-  \set Staff.midiInstrument = "violin"
-
-  \override Staff.TimeSignature #'style = #'()
-
   % --------------------------------------------------
   % 1
   % --------------------------------------------------
@@ -69,7 +55,5 @@ tenorMusic =
 
     \times2/3{ bes8 g bes } \times2/3{ c8 d c } \times2/3{ d8 f d } bes4 |
   }
-
-  \bar "|."
 }
 

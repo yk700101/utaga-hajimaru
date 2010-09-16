@@ -11,20 +11,6 @@
 
 altoMusic =
 {
-  \set Staff.instrumentName = "Alto"
-
-  \clef treble
-
-  \key f \major
-
-  % --------------------------------------------------
-  % Initial Setting
-  % --------------------------------------------------
-%  \set Staff.midiInstrument = "acoustic grand"
-  \set Staff.midiInstrument = "violin"
-
-  \override Staff.TimeSignature #'style = #'()
-
   % --------------------------------------------------
   % 1
   % --------------------------------------------------
@@ -34,16 +20,16 @@ altoMusic =
     R1*6/4 |
 
     \time 5/4
-    a4~ a4~ a16 [ r16 a8 ] a8 [ c ] a8 [ g ] |
+    a2~ a16 [ r16 a8 ] a8 [ c ] a8 [ g ] |
 
-    a4~  a4~ a16 [ r16 g8 ] a8 [ g ] f8 [ g ] |
+    a2~ a16 [ r16 g8 ] a8 [ g ] f8 [ g ] |
 
-    a4~  a4~ a16 [ r16 c8 ] c8 [ a ] g8 [ a ] |
+    a2~ a16 [ r16 c8 ] c8 [ a ] g8 [ a ] |
 
-    g4~  g4~ g16 [ r16 f8 ] g8 [ f ] f8 [ g ] |
+    g2~ g16 [ r16 f8 ] g8 [ f ] f8 [ g ] |
 
     \time 6/4
-    f4~ f4~ f4~ f4~ f4 r4 |
+    f1~ f4 r4 |
   }
 
   % --------------------------------------------------
@@ -72,12 +58,10 @@ altoMusic =
     \time 4/4
     c16 [ c c c ] a16 [ r g r ] c16 [ c c c ] a16 [ r g r ] |
     
-    c16  [ c c c ] a16 [ r g r ] f16 [ r d r ] f16 [ r8. ] |
+    c16 [ c c c ] a16 [ r g r ] f16 [ r d r ] f16 [ r8. ] |
 
     \time 5/4
-    r16 [ a8.~ ] a4~ a4~ a4 r4 |
+    r16 [ a8.~ ] a2. r4 |
   }
-
-  \bar "|."
 }
 

@@ -15,11 +15,15 @@
 
 \include "altoMusic.ly"
 
+\include "altoMarks.ly"
+
 \include "altoLyrics.ly"
 
 \include "altoLyricsRoman.ly"
 
 \include "tenorMusic.ly"
+
+\include "tenorMarks.ly"
 
 \include "tenorLyrics.ly"
 
@@ -27,11 +31,15 @@
 
 \include "wholeLyrics.ly"
 
+\include "allMarks.ly"
+
+\include "allTempos.ly"
+
+\include "allBreaks.ly"
+
 
 \paper
 {
-  print-page-number = false
-  bottom-margin = 1\cm
 }
 
 \header 
@@ -45,7 +53,6 @@
         {
           %move right
           \hspace #4.0
-
           歌が はじまる
         }
 
@@ -53,7 +60,6 @@
         {
           (Uta ga Hajimaru)
         }
-
       }
     }
 
@@ -67,7 +73,6 @@
         {
           About 1:00
         }
-
       }
     }
 
@@ -93,7 +98,7 @@
       {
         \line
         {
-          Ver1.15 (2008/12/03-2010/03/29) / Edition may be freely distributed, duplicated, performed, or recorded.
+          Ver1.16 (2008/12/03-2010/09/09) / Edition may be freely distributed, duplicated, performed, or recorded.
         }
 
         \line
@@ -102,65 +107,77 @@
         }
       }
     }
-
 }
 
 \score
 {
   \new ChoirStaff
-  <<
-
+  {
     \commonScoreSetting
 
-    \new Staff
     <<
-
-      \new Voice = "alto" 
+      \new Staff
       {
-        \altoMusic
+        <<
+          \new Voice = "alto" 
+          {
+            \commonStaffSetting
+
+            <<
+              \altoMusic
+              \altoMarks
+              \allMarks
+              \allTempos
+              \allBreaks
+            >>
+          }
+
+          \new Lyrics
+          {
+            \set associatedVoice = #"alto"
+            \commonLyricsSettingJ
+            \altoLyrics
+          }
+
+          \new Lyrics
+          {
+            \set associatedVoice = #"alto"
+            \commonLyricsSettingR
+            \altoLyricsRoman
+          }
+        >>
       }
 
-      \new Lyrics
+      \new Staff
       {
-        \set associatedVoice = #"alto"
+        <<
+          \new Voice = "tenor" 
+          {
+            \commonStaffSetting
 
-        \altoLyrics
+            <<
+              \tenorMusic
+              \tenorMarks
+            >>
+          }
+
+          \new Lyrics
+          {
+            \set associatedVoice = #"tenor"
+            \commonLyricsSettingJ
+            \tenorLyrics
+          }
+
+          \new Lyrics
+          {
+            \set associatedVoice = #"tenor"
+            \commonLyricsSettingR
+            \tenorLyricsRoman
+          }
+        >>
       }
-
-      \new Lyrics
-      {
-        \set associatedVoice = #"alto"
-
-        \altoLyricsRoman
-      }
-
     >>
-
-    \new Staff
-    <<
-
-      \new Voice = "tenor" 
-      {
-        \tenorMusic
-      }
-
-      \new Lyrics
-      {
-        \set associatedVoice = #"tenor"
-
-        \tenorLyrics
-      }
-
-      \new Lyrics
-      {
-        \set associatedVoice = #"tenor"
-
-        \tenorLyricsRoman
-      }
-
-    >>
-
-  >>
+  }
 
   \layout
   {
@@ -182,7 +199,6 @@
   \midi
   {
   }
-
 }
 
 \wholeLyrics

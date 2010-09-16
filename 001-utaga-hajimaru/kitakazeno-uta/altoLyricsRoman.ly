@@ -14,15 +14,15 @@ altoLyricsRoman = \lyricmode
   % --------------------------------------------------
   % 1
   % --------------------------------------------------
-  \skip4 \skip4 \skip4 \skip4 |
+  \skip1*4/4 |
 
   U16 -- shi -- nat -- \skip16 ta4 -- \skip16 mo16 -- no -- o ka8*2/3 -- zo -- e -- na -- nga -- la, __ \skip2 |
 
-  Ki16 -- ta -- ka -- ze -- wa4 __ \skip4 kyo16 -- o -- mo16 u16 -- tat -- \skip16 te -- i -- lu.4 \skip4 \skip4 |
+  Ki16 -- ta -- ka -- ze -- wa4 \skip4 kyo16 -- o -- mo16 u16 -- tat -- \skip16 te -- i -- lu.2 \skip4 |
   
-  Mo4 -- o __ \skip4 mo8*2/3 -- do -- la -- nai4*2/3 -- no8*2/3 -- ka?4 \skip4 \skip4 |
+  Mo4 -- o __ \skip4 mo8*2/3 -- do -- la -- nai4*2/3 -- no8*2/3 -- ka?2 \skip4 |
 
-  Wa16 -- ta -- shi -- no u8*2/3 -- ta -- wa \skip16 do16 -- ko -- e it -- \skip16 ta -- no -- ka?4 __ \skip4 \skip4 \skip4 |
+  Wa16 -- ta -- shi -- no u8*2/3 -- ta -- wa \skip16 do16 -- ko -- e it -- \skip16 ta -- no -- ka?2 __ \skip4 \skip4 |
 
 }
 

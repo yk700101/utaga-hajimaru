@@ -65,7 +65,6 @@ wholeLyrics =
     { 
       チキチキトンシャン　トンシャントン
     }
-
   }
 
   \hspace #4.0
@@ -126,8 +125,6 @@ wholeLyrics =
     { 
       Chi-ki-chi-ki-ton-shan ton-shan-ton.
     }
-
   }
-
 }
 

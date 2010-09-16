@@ -36,13 +36,12 @@ altoLyricsRoman = \lyricmode
   % --------------------------------------------------
   % 3
   % --------------------------------------------------
-  Shi8*2/3 -- zu -- mu kyo8*2/3 -- o -- no hi8*2/3 -- wa mo -- o,4 |
+  Shi8*2/3 -- zu -- mu kyo8*2/3 -- o -- no hi8*2/3 -- wa, mo -- o4 |
 
   so8*2/3 -- la -- ni ni8*2/3 -- do -- to ka8*2/3 -- e -- la -- nai.4 |
 
   no8*2/3 -- bo -- lu a8*2/3 -- su -- no hi8*2/3 -- o ma -- chi,4 |
 
   kyo8*2/3 -- o -- wa to8*2/3 -- mo -- ni ne8*2/3 -- mu -- lo -- o.4 |
-
 }
 

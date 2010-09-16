@@ -32,7 +32,7 @@ altoLyrics = \lyricmode
   % --------------------------------------------------
   % 2
   % --------------------------------------------------
-  \skip8 Hah16 __ \skip16 \skip4 \skip8 Hah16*2/3 __ \skip16*2/3 \skip16*2/3 \skip4  |
+  \skip8 Hah16 __ \skip16 \skip4 \skip8 Hah16*2/3 __ \skip16*2/3 \skip16*2/3 \skip4 |
 
   \skip8 Hah16*2/3 __ \skip16*2/3 \skip16*2/3 \skip4 \skip8 Hah32 __ \skip32 \skip32 \skip32 \skip4 |
 
@@ -45,9 +45,8 @@ altoLyrics = \lyricmode
   % --------------------------------------------------
   % Ending
   % --------------------------------------------------
-  パン4 パン4 パン8 パン！8 __ \skip8 \skip16 \skip16 |
+  パン4 パン4 パン8 パン8 __ \skip8 \skip16 \skip16 |
 
   \skip16 Hum8. __ \skip2 \skip4 |
-
 }
 
