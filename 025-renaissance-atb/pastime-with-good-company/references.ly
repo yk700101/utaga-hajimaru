@@ -34,7 +34,7 @@ references =
       }
 
       \line
-      { 
+      {
         "  " "‘Pastime with good company’: composition by Henry VIII"
       }
 
@@ -51,6 +51,26 @@ references =
       \line
       { 
         "    " http://en.wikipedia.org/wiki/Pastime_with_Good_Company
+      }
+    }
+
+    \vspace #1
+
+    \line
+    { 
+      Note
+    }
+
+    \tiny
+    {
+      \line
+      { 
+        "  " All : I added accidental suggestion.
+      }
+
+      \line
+      { 
+        "  " Bar 2, 6, 8, 11, 13 : I modified differences of rests.
       }
     }
   }

@@ -11,6 +11,6 @@
 
 allTempos =
 {
-  \tempo 4=104
+  \tempo 2=52
 }
 

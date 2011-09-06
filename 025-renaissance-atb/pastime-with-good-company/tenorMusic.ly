@@ -77,7 +77,7 @@ tenorMusicI =
 
 tenorMusic =
 {
-  \time 4/4
+  \time 2/2
 
   \set suggestAccidentals = ##t
 
