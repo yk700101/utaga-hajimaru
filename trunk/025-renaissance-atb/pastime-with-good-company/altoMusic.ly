@@ -45,7 +45,10 @@ altoMusicI =
   \relative c''
   {
     bes4. bes8 a8. [ bes16 ] a8 [ g8 ] |
-    f8 [ g8 ] f16 [ e16 fis8 ] g4 r8 f8 |
+    f8 [ g8 ] f16 [ e16 fis8 ] g4 r8
+      \set suggestAccidentals = ##f
+      f?8 |
+      \set suggestAccidentals = ##t
   }
 
   % --------------------------------------------------
@@ -78,7 +81,7 @@ altoMusicI =
 
 altoMusic =
 {
-  \time 4/4
+  \time 2/2
 
   \set suggestAccidentals = ##t
 

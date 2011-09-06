@@ -94,7 +94,7 @@
 
         \line
         {
-          Ver1.02 (2011/07/31-2011/08/05) / Edition may be freely distributed, duplicated, performed, or recorded.
+          Ver1.04 (2011/07/31-2011/08/31) / Edition may be freely distributed, duplicated, performed, or recorded.
         }
 
         \line

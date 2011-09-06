@@ -24,7 +24,7 @@ commonStaffSetting =
 
   \set Staff.midiInstrument = "violin"
 
-  \override Staff.TimeSignature #'style = #'()
+%  \override Staff.TimeSignature #'style = #'()
 }
 
 
