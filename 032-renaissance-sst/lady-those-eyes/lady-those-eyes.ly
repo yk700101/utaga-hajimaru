@@ -93,7 +93,7 @@
 
         \line
         {
-          Ver1.02 (2012/09/08-2012/09/15) / Edition may be freely distributed, duplicated, performed, or recorded.
+          Ver1.03 (2012/09/08-2012/09/17) / Edition may be freely distributed, duplicated, performed, or recorded.
         }
 
         \line

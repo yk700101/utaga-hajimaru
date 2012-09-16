@@ -46,7 +46,7 @@ tenorLyrics = \lyricmode
   thee,2 \skip8 but8 Oh,16 in16 me,16 in16 |
   me,4 \skip8 Oh,8 but16 in16 me,16 in16 me,8 but8 |
   Oh,16 in16 me,16 in16 me,4 he2 |
-  burn2 -- eth.2 |
+  bur2 -- neth.2 |
 
   % --------------------------------------------------
   % 1-5
@@ -56,6 +56,6 @@ tenorLyrics = \lyricmode
   thee,2 \skip8 but8 Oh,16 in16 me,16 in16 |
   me,4 \skip8 Oh,8 but16 in16 me,16 in16 me,8 but8 |
   Oh,16 in16 me,16 in16 me,4 he2 |
-  burn2 -- eth.2 |
+  bur2 -- neth.2 |
 }
 

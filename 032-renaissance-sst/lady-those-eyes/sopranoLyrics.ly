@@ -45,8 +45,8 @@ sopranoLyrics = \lyricmode
   thee,4 no,4 Love8 doth16 but16 shine8 in16 __ \skip16 |
   thee,8 but8 Oh,16 in16 me,16 in16 me,8 Oh,4 Oh,8 |
   but16 in16 me,16 in16 me,4 but8 Oh,16 in16 me,16 in16 me,16 in16 |
-  me,8 Oh,8 but16 in16 me,16 in16 me,8 he8 burn4 -- |
-  \skip8 \skip16 \skip16 \skip4 eth.2 |
+  me,8 Oh,8 but16 in16 me,16 in16 me,8 he8 bur4 -- |
+  \skip8 \skip16 \skip16 \skip4 neth.2 |
 
   % --------------------------------------------------
   % 1-5
@@ -56,6 +56,6 @@ sopranoLyrics = \lyricmode
   thee,8 in8 thee,16 in16 thee,16 in16 thee,16 in16 thee,16 in16 __ \skip16 \skip8 \skip16 |
   thee,8 but8 Oh,16 in16 me,16 in16 me,8 Oh,8 but16 in16 me,16 in16 |
   me,8 but8 Oh,16 in16 me,16 in16 me,4 Oh,8 he8 |
-  burn4. -- \skip8 eth.2 |
+  bur4. -- \skip8 neth.2 |
 }
 
