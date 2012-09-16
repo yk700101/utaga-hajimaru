@@ -85,9 +85,9 @@ bassLyrics = \lyricmode
   to,4 Di4 mil4. -- le8 |
   mor4. -- "te~il"8 di2 __ |
   \skip2 sa2 -- |
-  rei4 con4 -- ten4 to,8 Di8 |
+  rei4 con4 -- ten4 -- to,8 Di8 |
   mil4. -- le8 mor4. -- "te~il"8 |
   di2 \skip4 sa4 -- |
-  rei4 con4 -- ten2 to.1 |
+  rei4 con4 -- ten2 -- to.1 |
 }
 

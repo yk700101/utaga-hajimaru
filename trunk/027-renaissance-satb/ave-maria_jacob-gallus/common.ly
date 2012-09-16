@@ -27,6 +27,15 @@ commonStaffSetting =
 %  \override Staff.TimeSignature #'style = #'()
 }
 
+commonScoreSettingGregorianIntonation =
+{
+  \override Score.SpacingSpanner #'base-shortest-duration = #(ly:make-moment 1 32)
+
+  \override Score.Stem #'transparent = ##t
+
+  \key c \major
+}
+
 commonLyricsSettingMain =
 {
 }

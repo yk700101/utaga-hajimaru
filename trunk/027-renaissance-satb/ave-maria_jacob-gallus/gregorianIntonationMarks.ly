@@ -9,7 +9,7 @@
 %  Suite 300, San Francisco, California, 94105, USA.
 % **********************************************************************
 
-gregorianIntonationMarks =
+gregorianIntonationMarksHead =
 {
 %  \set Staff.instrumentName = "Soprano"
   \set Staff.instrumentName = "Cantus"
@@ -18,7 +18,10 @@ gregorianIntonationMarks =
 
   \override Staff.TimeSignature #'stencil = ##f
   \override Stem #'transparent = ##t
+}
 
+gregorianIntonationMarksBody =
+{
   % --------------------------------------------------
   % 1
   % --------------------------------------------------
@@ -26,5 +29,12 @@ gregorianIntonationMarks =
 
   \once \override Staff.BarLine #'transparent = ##f
   \bar "|"
+}
+
+gregorianIntonationMarks =
+{
+  \gregorianIntonationMarksHead
+
+  \gregorianIntonationMarksBody
 }
 
