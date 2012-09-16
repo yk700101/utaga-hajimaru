@@ -9,13 +9,16 @@
 %  Suite 300, San Francisco, California, 94105, USA.
 % **********************************************************************
 
-sopranoMarks =
+sopranoMarksHead =
 {
 %  \set Staff.instrumentName = "Soprano"
   \set Staff.instrumentName = "Cantus"
 
   \clef treble
+}
 
+sopranoMarksBody =
+{
   % --------------------------------------------------
   % 1-1
   % --------------------------------------------------
@@ -87,5 +90,12 @@ sopranoMarks =
   s1*2/2 |
   s1*2/2 |
   s1*2/2 \fermata |
+}
+
+sopranoMarks =
+{
+  \sopranoMarksHead
+
+  \sopranoMarksBody
 }
 

@@ -9,7 +9,15 @@
 %  Suite 300, San Francisco, California, 94105, USA.
 % **********************************************************************
 
-bassMarksI =
+bassMarksHead =
+{
+%  \set Staff.instrumentName = "Bass"
+  \set Staff.instrumentName = "Bassus"
+
+  \clef bass
+}
+
+bassMarksBody =
 {
   % --------------------------------------------------
   % 1-1
@@ -71,11 +79,8 @@ bassMarksI =
 
 bassMarks =
 {
-%  \set Staff.instrumentName = "Bass"
-  \set Staff.instrumentName = "Bassus"
+  \bassMarksHead
 
-  \clef bass
-
-  \bassMarksI
+  \bassMarksBody
 }
 

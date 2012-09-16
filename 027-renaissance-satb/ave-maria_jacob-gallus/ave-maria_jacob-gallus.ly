@@ -9,7 +9,7 @@
 %  Suite 300, San Francisco, California, 94105, USA.
 % **********************************************************************
 
-\version "2.14.2"
+\version "2.16.0"
 
 \include "common.ly"
 
@@ -110,7 +110,7 @@
 
         \line
         {
-          Ver1.03 (2011/08/23-2011/09/04) / Edition may be freely distributed, duplicated, performed, or recorded.
+          Ver1.04 (2011/08/23-2012/09/16) / Edition may be freely distributed, duplicated, performed, or recorded.
         }
 
         \line
@@ -130,7 +130,7 @@
 {
   \new GregorianTranscriptionStaff
   {
-    \override Score.SpacingSpanner #'base-shortest-duration = #(ly:make-moment 1 32)
+    \commonScoreSettingGregorianIntonation
 
     <<
       <<
@@ -248,8 +248,9 @@
 
   \layout
   {
-    \context 
+    \context
     {
+      \Lyrics
       \consists "Bar_engraver"
       \consists "Separating_line_group_engraver"
       \override BarLine #'transparent = ##t

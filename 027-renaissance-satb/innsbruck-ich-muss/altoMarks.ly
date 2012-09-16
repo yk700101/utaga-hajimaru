@@ -9,7 +9,16 @@
 %  Suite 300, San Francisco, California, 94105, USA.
 % **********************************************************************
 
-altoMarksI =
+altoMarksHead =
+{
+%  \set Staff.instrumentName = "Alto"
+  \set Staff.instrumentName = "Altus"
+
+%  \clef treble
+  \clef "treble_8" 
+}
+
+altoMarksBody =
 {
   % --------------------------------------------------
   % 1-1
@@ -71,12 +80,8 @@ altoMarksI =
 
 altoMarks =
 {
-%  \set Staff.instrumentName = "Alto"
-  \set Staff.instrumentName = "Altus"
+  \altoMarksHead
 
-%  \clef treble
-  \clef "treble_8" 
-
-  \altoMarksI
+  \altoMarksBody
 }
 

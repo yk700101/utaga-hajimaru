@@ -9,12 +9,15 @@
 %  Suite 300, San Francisco, California, 94105, USA.
 % **********************************************************************
 
-tenorMarks =
+tenorMarksHead =
 {
   \set Staff.instrumentName = "Tenore"
 
   \clef "treble_8" 
+}
 
+tenorMarksBody =
+{
   % --------------------------------------------------
   % 1-1
   % --------------------------------------------------
@@ -94,5 +97,12 @@ tenorMarks =
   s4. s8 s4. s8 |
   s4 s4 s2 |
   s1 \fermata |
+}
+
+tenorMarks =
+{
+  \tenorMarksHead
+
+  \tenorMarksBody
 }
 
