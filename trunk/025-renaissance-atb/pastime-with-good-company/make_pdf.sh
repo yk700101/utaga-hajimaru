@@ -1,1 +1,1 @@
-/home/yamamoto/lilypond-2.16.0-1/bin/lilypond -dno-point-and-click pastime-with-good-company.ly
+PATH=/home/yamamoto/lilypond-2.16.2-1/bin/:${PATH} lilypond -dno-point-and-click pastime-with-good-company.ly
