@@ -27,7 +27,7 @@ altoMusicI =
   {
     bes4. bes8 a4. g8 |
 
-    f8 [ g8 ] f16 [ e16 fis8 ] g2 |
+    fis?8 [ g8 ] fis?16 [ e16 fis?8 ] g2 |
   }
 
   % --------------------------------------------------
@@ -45,7 +45,7 @@ altoMusicI =
   \relative c''
   {
     bes4. bes8 a8. [ bes16 ] a8 [ g8 ] |
-    f8 [ g8 ] f16 [ e16 fis8 ] g4 r8
+    fis?8 [ g8 ] fis?16 [ e16 fis?8 ] g4 r8
       \set suggestAccidentals = ##f
       f?8 |
       \set suggestAccidentals = ##t
@@ -75,7 +75,7 @@ altoMusicI =
   \relative c''
   {
     g4 a4 bes4 r8 bes8 |
-    a8 [ g8 ] f16 [ g16 a16 fis16 ] g2 |
+    a8 [ g8 ] fis?16 [ g16 a16 fis?16 ] g2 |
   }
 }
 

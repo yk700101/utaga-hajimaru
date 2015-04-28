@@ -9,7 +9,7 @@
 %  Suite 300, San Francisco, California, 94105, USA.
 % **********************************************************************
 
-\version "2.16.0"
+\version "2.16.2"
 
 \include "common.ly"
 
@@ -94,7 +94,7 @@
 
         \line
         {
-          Ver1.05 (2011/07/31-2012/09/16) / Edition may be freely distributed, duplicated, performed, or recorded.
+          Ver1.06 (2011/07/31-2015/04/28) / Edition may be freely distributed, duplicated, performed, or recorded.
         }
 
         \line
