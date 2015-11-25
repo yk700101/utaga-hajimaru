@@ -22,7 +22,7 @@ tenorLyrics = \lyricmode
 
   も4 う4 __ \skip4 も4 う2. \skip4 |
 
-  \skip4 \skip4 う4 __ \skip8 た8 は？2 __ \skip4 \skip4 |
+  \skip4 \skip4 う4 __ \skip8 た8 は2 __ \skip4 \skip4 |
 
 }
 

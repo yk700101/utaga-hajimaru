@@ -9,7 +9,7 @@
 %  Suite 300, San Francisco, California, 94105, USA.
 % **********************************************************************
 
-\version "2.16.0"
+\version "2.16.2"
 
 \include "common.ly"
 

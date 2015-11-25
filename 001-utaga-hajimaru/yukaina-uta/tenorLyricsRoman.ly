@@ -14,15 +14,15 @@ tenorLyricsRoman = \lyricmode
   % --------------------------------------------------
   % 1
   % --------------------------------------------------
-  Don4 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 Don4 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 |
+  Dm4 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 Dm4 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 |
 
-  Don8 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 Don8 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 |
+  Dm8 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 Dm8 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 |
 
-  Don8 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 Don8 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 |
+  Dm8 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 Dm8 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 |
 
-  Don8 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 Don8 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 |
+  Dm8 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 Dm8 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 |
 
-  Don8 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 Don8 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 |
+  Dm8 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 Dm8 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 |
 
   Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 Chi16 -- ki16 -- chi16 -- ki16 -- ton16 -- \skip16 shan16 \skip16 ton4 \skip4 |
 

@@ -9,7 +9,7 @@
 %  Suite 300, San Francisco, California, 94105, USA.
 % **********************************************************************
 
-\version "2.12.3"
+\version "2.16.2"
 
 \include "common.ly"
 
@@ -99,7 +99,7 @@
       {
         \line
         {
-          Ver1.05 (2010/05/15-2010/12/24) / Edition may be freely distributed, duplicated, performed, or recorded.
+          Ver1.06 (2010/05/15-2011/10/17) / Edition may be freely distributed, duplicated, performed, or recorded.
         }
 
         \line
@@ -114,9 +114,9 @@
 {
   \new ChoirStaff
   {
-    <<
-      \commonScoreSetting
+    \commonScoreSetting
 
+    <<
       \new Staff
       {
         <<
@@ -192,7 +192,7 @@
 
     \context 
     {
-      \Voice
+      \Staff
       \consists "Ambitus_engraver"
     }
   }

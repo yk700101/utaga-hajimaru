@@ -51,11 +51,16 @@
       {
         \line
         {
-          %move right
-          \hspace #3.0
           ゆかいな歌
         }
+      }
+    }
 
+  subtitle =
+    \markup
+    { 
+      \column
+      {
         \line
         {
           (Yukaina Uta)
@@ -66,7 +71,6 @@
   subsubtitle =
     \markup
     { 
-      \lower #3.0
       \column
       {
         \line
@@ -81,9 +85,6 @@
     { 
       \column
       {
-        %insert blank line
-        \hspace #0.1
-
         \line
         {
           Words and Music by YAMAMOTO Kenji (1970/1/1- )
@@ -98,7 +99,7 @@
       {
         \line
         {
-          Ver1.29 (2008/11/16-2010/09/08) / Edition may be freely distributed, duplicated, performed, or recorded.
+          Ver1.31 (2008/11/16-2012/03/01) / Edition may be freely distributed, duplicated, performed, or recorded.
         }
 
         \line
@@ -183,7 +184,6 @@
   {
     \context 
     {
-      \Lyrics
       \consists "Bar_engraver"
       \consists "Separating_line_group_engraver"
       \override BarLine #'transparent = ##t
@@ -191,7 +191,7 @@
 
     \context 
     {
-      \Voice
+      \Staff
       \consists "Ambitus_engraver"
     }
   }

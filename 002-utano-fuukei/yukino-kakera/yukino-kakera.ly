@@ -51,11 +51,16 @@
       {
         \line
         {
-          %move right
-          \hspace #3.0
           ゆきの かけら
         }
+      }
+    }
 
+  subtitle =
+    \markup
+    { 
+      \column
+      {
         \line
         {
           (Yuki no Kakera)
@@ -66,7 +71,6 @@
   subsubtitle =
     \markup
     { 
-      \lower #3.0
       \column
       {
         \line
@@ -81,9 +85,6 @@
     { 
       \column
       {
-        %insert blank line
-        \hspace #0.1
-
         \line
         {
           Words and Music by YAMAMOTO Kenji (1970/1/1- )
@@ -98,7 +99,7 @@
       {
         \line
         {
-          Ver1.11 (2010/02/08-2010/09/08) / Edition may be freely distributed, duplicated, performed, or recorded.
+          Ver1.12 (2010/02/08-2010/12/14) / Edition may be freely distributed, duplicated, performed, or recorded.
         }
 
         \line

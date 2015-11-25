@@ -51,12 +51,16 @@
       {
         \line
         {
-          %move right
-          \hspace #4.0
-
           ゆうぐれの歌
         }
+      }
+    }
 
+  subtitle =
+    \markup
+    { 
+      \column
+      {
         \line
         {
           (Yuugure no Uta)
@@ -67,7 +71,6 @@
   subsubtitle =
     \markup
     { 
-      \lower #3.0
       \column
       {
         \line
@@ -82,16 +85,10 @@
     { 
       \column
       {
-        %insert blank line
-        \hspace #0.1
-
         \line
         {
           Words and Music by YAMAMOTO Kenji (1970/1/1- )
         }
-
-        %insert blank line
-        \hspace #0.1
       }
     }
 
@@ -102,7 +99,7 @@
       {
         \line
         {
-          Ver1.14 (2009/01/07-2010/09/08) / Edition may be freely distributed, duplicated, performed, or recorded.
+          Ver1.15 (2009/01/07-2010/12/14) / Edition may be freely distributed, duplicated, performed, or recorded.
         }
 
         \line
@@ -187,7 +184,6 @@
   {
     \context 
     {
-      \Lyrics
       \consists "Bar_engraver"
       \consists "Separating_line_group_engraver"
       \override BarLine #'transparent = ##t
@@ -195,7 +191,7 @@
 
     \context 
     {
-      \Voice
+      \Staff
       \consists "Ambitus_engraver"
     }
   }

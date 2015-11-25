@@ -22,16 +22,14 @@ wholeLyrics =
       [ たんぽぽの わたげ ]
     }
 
-    %insert blank line
-    \hspace #0.1
+    \vspace #1
 
     \line
     { 
       たんぽぽの　わたげを　そっと　ふこう
     }
 
-    %insert blank line
-    \hspace #0.1
+    \vspace #1
 
     \line
     { 
@@ -77,8 +75,7 @@ wholeLyrics =
       Let's blow the fluff of a dandelion softly.
     }
 
-    %insert blank line
-    \hspace #0.1
+    \vspace #1
 
     \line
     { 

@@ -36,7 +36,7 @@ mezzoLyrics = \lyricmode
   journ8 -- eth,8 \skip8 less8 heat8 in8 me8 so8 -- |
   journ8 -- eth,8 Oh,8 no,4 Oh,4 no,8 |
   \skip8 no,4 Oh,8 no,8 no,8 no,8 then8 |
-  thou16 be16 -- guilest4 __ \skip8 thee.2 |
+  thou16 be16 -- \skip4 guilest8 thee.2 |
 
   % --------------------------------------------------
   % 1-4

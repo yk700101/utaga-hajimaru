@@ -1,1 +1,1 @@
-lilypond -dno-point-and-click utano-kobako.ly && rm *.ps
+PATH=/home/yamamoto/lilypond-2.12.3-1/bin:${PATH} lilypond -dno-point-and-click utano-kobako.ly && rm *.ps
